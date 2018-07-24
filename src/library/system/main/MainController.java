@@ -366,7 +366,7 @@ public class MainController implements Initializable {
         try {
             bookID = Integer.parseInt(bookIdStr);
         } catch (NumberFormatException e) {
-            MessageBox.showErrorMessage("Input Error", "Invalid Number format");
+            MessageBox.showErrorMessage("Input Data Error", "Invalid Number format");
             return;
         }
 
